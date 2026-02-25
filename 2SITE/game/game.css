@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    background-image: url(snake.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+canvas {
+    background: #00fa3e;
+    border: 3px solid rgb(255, 255, 255);
+}

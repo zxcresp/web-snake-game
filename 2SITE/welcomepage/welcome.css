@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    background-image: url(snake.png);
+    background-size: cover;
+    font-size: 20px;
+}
+
+.welcome-text{
+    text-align: center;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+h2{
+    margin-top: 0;
+}
+
+.square{
+    width: 600px;
+    height: 943px;
+    background-color: rgb(1, 255, 1);
+    margin: 0 auto;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.button-style{
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.butn-github{
+    background-image: url(git2.jpg);
+    width: 200px;
+    height: 60px;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+.butn-telegram{
+    background-image: url(telegram.png);
+    width: 200px;
+    height: 60px;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+}
+
+.social-btn{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    padding: 0 40px;
+    gap: 60px;
+}
+
+.btns{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 40px;
+}
